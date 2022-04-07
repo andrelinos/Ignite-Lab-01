@@ -3,6 +3,7 @@ import { UserProvider } from '@auth0/nextjs-auth0';
 
 function MyApp({ Component, pageProps }) {
     const { user, isAuthenticated, loginWithRedirect, logout } = useAuth0();
+
     return (
         <UserProvider user={user}>
             <Component {...pageProps} />

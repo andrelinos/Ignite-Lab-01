@@ -8,8 +8,6 @@ export default function Home() {
             <h1>Olá mundo!</h1>
             <pre>{JSON.stringify(user, null, 2)}</pre>
         </div>
-
-        
     );
 }
 
