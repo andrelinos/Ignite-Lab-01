@@ -25,30 +25,45 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0;
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/andrelinos" target="_blank">Author</a>
+  <a href="#rocket-tecnologias">Technologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-necessario">Necessário</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-executanto-o-projeto">Executando o projeto</a> &#xa0; | &#xa0;
+  <a href="#memo-licenca">Licença</a> &#xa0; | &#xa0;
+  <a href="https://github.com/andrelinos" target="_blank">Autor</a>
 </p>
 
 <br>
 
-## :dart: About ##
+## :dart: Sobre ##
 
-Describe your project
+Este projeto foi desenvolvido nas aulas do Ignite Lab (04/2022) ministrado pelo Diego Fernandes da Rocketseat.
+
+Neste conhecemos tecnologias usadas em microsserviços de forma simplificada e uma grande base para coisas maiores.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+### Serviço de compras (purchases) ##
 
-## :rocket: Technologies ##
+:heavy_check_mark: [Admin] Cadastro de produtos;\
+:heavy_check_mark: [Admin] Listagem de produtos;\
+:heavy_check_mark: [Auth] Listagem de compras;\
+:heavy_check_mark: [Public] Compra de um produto;\
+:heavy_check_mark: [Public] Lista produtos disponíveis p/ compra;
 
-The following tools were used in this project:
+### Serviço de sala de aula (classroom) ##
+
+:heavy_check_mark: [Admin] Listar matrículas;\
+:heavy_check_mark: [Admin] [Admin] Listar alunos;\
+:heavy_check_mark: [Admin] Listar cursos;\
+:heavy_check_mark: [Admin] Cadastrar cursos;\
+:heavy_check_mark: [Auth] Listar cursos que tenho acesso;\
+:heavy_check_mark: [Auth] Acessar conteúdo do curso;
+
+## :rocket: Tecnologias ##
+
+Confira abaixo as tecnologias utilizadas neste projeto
 
 - [NestJS](https://nestjs.com/)
 - [GraphQL](https://graphql.org/)
@@ -56,29 +71,46 @@ The following tools were used in this project:
 - [Next.js](https://nextjs.org/)
 - [Apollo Client (GraphQL)](https://www.apollographql.com/)
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Necessário ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Antes de executar o projeto, você precisa :checkered_flag:, ter em seu sistema operacional as seguintes ferramentas instaladas [Git](https://git-scm.com) e [Node](https://nodejs.org/en/).
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Executando o projeto ##
 
 ```bash
-# Clone this project
-$ git clone https://github.com/andrelinos/lab-01
+# Clone o projeto
+$ git clone https://github.com/andrelinos/Ignite-Lab-01
 
-# Access
+# Acesse
 $ cd lab-01
 
-# Install dependencies
+# Instale as dependências de todas as pastas dos demais projetos
 $ yarn
 
-# Run the project
-$ yarn start
+# Nota: Execute o comando yarn em cada uma das pastas (classroom, purchases, gateway, web)
 
-# The server will initialize in the <http://localhost:3000>
+# Execute os projetos
+
+# classroom
+$ yarn start:dev
+
+# purchases
+$ yarn start:dev
+
+# web
+$ yarn dev
+
+# gateway
+$ yarn start:dev
+
 ```
 
-## :memo: License ##
+## Rotas da aplicação ##
+
+- API: <http://localhost:3332/graphql>
+- WEB: <http://localhost:3000>
+
+## :memo: Licença ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
