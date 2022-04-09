@@ -74,7 +74,13 @@ Confira abaixo as tecnologias utilizadas neste projeto
 
 ## :white_check_mark: Necessário ##
 
-Antes de executar o projeto, você precisa :checkered_flag:, ter em seu sistema operacional as seguintes ferramentas instaladas [Git](https://git-scm.com) e [Node](https://nodejs.org/en/).
+Antes de executar o projeto, você precisa :checkered_flag:, ter em seu sistema operacional as seguintes ferramentas instaladas:
+
+- [Git](https://git-scm.com)
+- [Node](https://nodejs.org/en/).
+- [NestJS](https://nestjs.com/) | <i>Instalado de forma global</i>
+- [Docker](https://docs.docker.com/)
+- [Docker compose](https://docs.docker.com/compose/install/)
 
 ## :checkered_flag: Executando o projeto ##
 
@@ -84,6 +90,9 @@ $ git clone https://github.com/andrelinos/Ignite-Lab-01
 
 # Acesse
 $ cd lab-01
+
+# Execute o comando 
+$ docker-compose up -d
 
 # Instale as dependências de todas as pastas dos demais projetos
 $ yarn
