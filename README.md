@@ -28,8 +28,9 @@
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Technologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-necessario">Necessário</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-executanto-o-projeto">Executando o projeto</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-necess%C3%A1rio">Necessário</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-executando-o-projeto">Executando o projeto</a> &#xa0; | &#xa0;
+  <a href="#rotas">Rotas</a> &#xa0; | &#xa0;
   <a href="#memo-licenca">Licença</a> &#xa0; | &#xa0;
   <a href="https://github.com/andrelinos" target="_blank">Autor</a>
 </p>
