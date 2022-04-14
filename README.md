@@ -66,7 +66,7 @@ Neste conhecemos tecnologias usadas em microsserviços de forma simplificada e u
 
 Confira abaixo as tecnologias utilizadas neste projeto
 
-- [NestJS](https://nestjs.com/)
+- [NestJS](https://nestjs.com/) | [![npm](https://img.shields.io/npm/v/nestjs)](https://www.npmjs.com/package/nestjs)
 - [GraphQL](https://graphql.org/)
 - [Apache Kafka](https://kafka.apache.org/)
 - [Next.js](https://nextjs.org/)
