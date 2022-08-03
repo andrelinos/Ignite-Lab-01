@@ -1,0 +1,13 @@
+{
+  "eslint.workingDirectories": [
+    "purchases",
+    "classroom",
+    "gateway",
+    "web"
+  ],
+  "cSpell.words": [
+    "expressjwt",
+    "jwks",
+    "nestjs"
+  ]
+}
